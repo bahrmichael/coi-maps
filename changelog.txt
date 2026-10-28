@@ -1,3 +1,6 @@
+v0.1.5 | 2026-10-28
+* Security fixes
+
 v0.1.4 | 2026-10-28
 * Fixed a crash when you start a new game with the mod enabled
 

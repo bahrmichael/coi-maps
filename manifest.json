@@ -1,6 +1,6 @@
 {
   "id": "map-share",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "display_name": "Map Share",
   "description_short": "Share a top-down view of your map.",
   "description_long": "Adds a Map Share button to the toolbar. This mod uploads pictures of your map to the internet. Click Create link to get a share link. When you click Upload map, the mod takes top-down pictures of your full map and uploads them to a relay server. Anyone with your share link can open the map in a web browser. Click Upload map again to update it. Delete link deletes the map from the server. The mod connects to the internet only when you click Create link, Upload map or Delete link. The link and its secret are stored in ModData/map-share on this computer, never in save files.",
