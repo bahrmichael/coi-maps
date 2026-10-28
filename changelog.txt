@@ -1,0 +1,5 @@
+v0.1.4 | 2026-10-28
+* Fixed a crash when you start a new game with the mod enabled
+
+v0.1.3 | 2026-10-28
+* Added support for the current stable game version (0.8.7d)

@@ -1,0 +1,39 @@
+Captain of Industry Keep License (COI-Keep)
+
+Version 1.0
+
+Copyright (c) 2026 bahrdev
+
+This License applies to all files distributed with this notice, including code, artwork, graphics, icons, images, models, textures, audio, documentation, configuration files, and other materials (the “Work”). The Work may be used only in connection with Captain of Industry® (the “Game”), the video game published by MaFi Games (https://coigame.com), including its official updates, expansions, and downloadable content, as permitted by this License and the Captain of Industry Modding Policy.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of the Work to download, install, run, and use the Work within the Game, and to make copies of the Work as reasonably necessary for installation, backup, and use within the Game, subject to the following conditions:
+
+- Except as expressly permitted by this License, you may not copy, modify, merge, publish, distribute, sublicense, or create derivative works of the Work without permission from the Licensor.
+
+- The Maintenance Grant below permits limited community maintenance if the Work becomes broken and the Licensor does not update it or post a Maintenance Notice within the time periods described below.
+
+- Use of the Work must comply with the Captain of Industry Modding Policy. This License does not grant any rights in Captain of Industry®, MaFi Games’ trademarks, game code, game assets, or other intellectual property.
+
+- The above copyright notice, this permission notice, and credit to the original author must be included in all copies or substantial portions of the Work, including any community maintenance release.
+
+Maintenance Grant
+
+The Work is considered “broken” if, on the latest public stable version of Captain of Industry®, it cannot be loaded, crashes the Game, corrupts or prevents normal use of saves, or otherwise fails in a way that substantially prevents players from using the Work as intended.
+
+If the Work is broken for at least ten (10) days, then the Work becomes eligible for community maintenance unless, during that period, the Licensor has published an update or a Maintenance Notice.
+
+A “Maintenance Notice” means a public statement by the Licensor, posted on the Hub, the Work’s repository, or another official project page, stating that the Licensor is aware that the Work is broken and intends to update it. A Maintenance Notice prevents community maintenance only until thirty (30) days after the Work first became broken. If the Work remains broken after that thirty (30) day period, it becomes eligible for community maintenance even if a Maintenance Notice was posted.
+
+Once the Work is eligible for community maintenance, any person may:
+
+(a) modify the Work only as reasonably necessary to fix the issue, restore compatibility with the Game, or fix bugs;
+
+(b) distribute the modified Work as a clearly labeled community maintenance release; and
+
+(c) continue these activities for as long as the original Work would otherwise remain broken.
+
+This grant is limited to maintenance only. It does not authorize new features unrelated to maintenance, removal of the Licensor's attribution, redistribution as a standalone asset pack, or incorporation into any other software, game, or interactive media product.
+
+If the Licensor later publishes an update that fixes the broken Work, the Maintenance Grant ends for future updates to community maintenance releases, unless the Work later becomes eligible for community maintenance again. Community maintenance releases already created in good faith may continue to exist.
+
+THE WORK IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.

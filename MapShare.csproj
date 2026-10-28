@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Builds the mod and copies it into the game's Mods folder.
+       Override the paths with -p:GameDir=... -p:ModsDir=... -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>MapShare</AssemblyName>
+    <RootNamespace>MapShare</RootNamespace>
+    <Nullable>disable</Nullable>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <GameDir Condition="'$(GameDir)' == ''">$(HOME)/.local/share/Steam/steamapps/common/Captain of Industry</GameDir>
+    <ModsDir Condition="'$(ModsDir)' == ''">$(HOME)/.local/share/Steam/steamapps/compatdata/1594320/pfx/drive_c/users/steamuser/AppData/Roaming/Captain of Industry/Mods</ModsDir>
+    <ManagedDir>$(GameDir)/Captain of Industry_Data/Managed</ManagedDir>
+  </PropertyGroup>
+
+  <!-- Game DLLs: compile against them, never copy them (modding policy 4.1). -->
+  <ItemGroup>
+    <Reference Include="$(ManagedDir)/Mafi.dll" Private="false" />
+    <Reference Include="$(ManagedDir)/Mafi.Core.dll" Private="false" />
+    <Reference Include="$(ManagedDir)/Mafi.Unity.dll" Private="false" />
+    <Reference Include="$(ManagedDir)/UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="$(ManagedDir)/UnityEngine.UIElementsModule.dll" Private="false" />
+    <Reference Include="$(ManagedDir)/UnityEngine.IMGUIModule.dll" Private="false" />
+    <Reference Include="$(ManagedDir)/UnityEngine.ImageConversionModule.dll" Private="false" />
+    <Reference Include="$(ManagedDir)/Unity.Postprocessing.Runtime.dll" Private="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="manifest.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="changelog.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="LICENSE.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="thumbnail.png" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <Target Name="InstallMod" AfterTargets="Build">
+    <Copy SourceFiles="$(OutDir)MapShare.dll;$(OutDir)manifest.json;$(OutDir)changelog.txt;$(OutDir)LICENSE.txt;$(OutDir)thumbnail.png" DestinationFolder="$(ModsDir)/map-share" />
+    <Message Importance="high" Text="Installed to $(ModsDir)/map-share" />
+  </Target>
+
+</Project>
